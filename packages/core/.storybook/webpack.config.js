@@ -21,8 +21,11 @@ module.exports = {
       },
       {
         test: /\.tsx?$/,
-        include: path.resolve(__dirname, '../src'),
+        include: path.resolve(__dirname, '..'),
         loader: 'awesome-typescript-loader',
+        exclude: [
+          /node_modules\//
+        ]
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
