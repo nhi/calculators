@@ -1,6 +1,6 @@
 {
   "name": "@nhi/calculators.core",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A library of available calculators by NHI",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
